@@ -1,7 +1,7 @@
 from io import StringIO
 import pandas as pd
 import streamlit as st
-import plotly.figure_factory as ff
+from plotly.tools import FigureFactory as ff
 import plotly.graph_objects as go
 
 df_uploaded = st.sidebar.file_uploader('Choose txt file:')
